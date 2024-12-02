@@ -1,11 +1,11 @@
-import "./App.css";
+import AppRouting from "./Routing";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div>
+      <AppRouting />
+    </div>
   );
-}
+};
 
 export default App;
